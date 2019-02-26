@@ -1,0 +1,361 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "explorer.openEditors.visible": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "/usr/local/bin/nvim",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"],
+      "commands": [
+        {
+          "command": "editor.action.format"
+        }
+      ]
+    },
+    {
+      "before": [";", ";"],
+      "after": ["<Esc>", "f", "(", "i"]
+    },
+    {
+      "before": ["A", "A"],
+      "after": ["<Esc>", "A"]
+    },
+    {
+      "before": ["I", "I"],
+      "after": ["<Esc>", "I"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "="],
+      "after": [],
+      "commands": [
+        {
+          "command": "editor.action.formatDocument"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["i", "/", "*", "*"]
+    },
+    {
+      "before": ["<leader>", ">"],
+      "commands": [
+        {
+          "command": "workbench.action.showCommands"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "@"],
+      "commands": [
+        {
+          "command": "workbench.action.gotoSymbol"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "#"],
+      "commands": [
+        {
+          "command": "workbench.action.showAllSymbols"
+        }
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "cSpell.userWords": [
+    "EPSG",
+    "Graphi",
+    "Inited",
+    "MVVM",
+    "Segoe",
+    "Webview",
+    "advanced",
+    "ageable",
+    "annoying",
+    "antialiased",
+    "appname",
+    "axios",
+    "bbox",
+    "beautify",
+    "bio",
+    "browserslist",
+    "chmod",
+    "color",
+    "com",
+    "comapp",
+    "config",
+    "consts",
+    "cors",
+    "cpdaily",
+    "crossorigin",
+    "curr",
+    "customizations",
+    "datas",
+    "datetime",
+    "daydayup",
+    "debounced",
+    "deno",
+    "dept",
+    "depts",
+    "deriv",
+    "deserialize",
+    "devtool",
+    "disable",
+    "docthis",
+    "document",
+    "dragdrop",
+    "draggable",
+    "dragover",
+    "dragstart",
+    "easymotion",
+    "echarts",
+    "eval",
+    "geojson",
+    "geoserver",
+    "gitlab",
+    "gitlens",
+    "gmail",
+    "goquery",
+    "gorunpkg",
+    "graphiql",
+    "graphql",
+    "hlsearch",
+    "iconfont",
+    "incsearch",
+    "instanceof",
+    "iwecloud",
+    "keyframes",
+    "lisiur",
+    "lisiurday",
+    "location",
+    "manager",
+    "message",
+    "messages",
+    "moveend",
+    "nbsp",
+    "neovim",
+    "nocheck",
+    "noopener",
+    "noreferrer",
+    "nowrap",
+    "nums",
+    "nvim",
+    "orgnization",
+    "pageable",
+    "panel",
+    "polyfill",
+    "predeploy",
+    "preinit",
+    "project",
+    "promisify",
+    "puerkito",
+    "purs",
+    "ramda",
+    "rgba",
+    "rongzer",
+    "starttime",
+    "stringify",
+    "styl",
+    "this",
+    "tmpl",
+    "treeview",
+    "ubase",
+    "uicon",
+    "uncurrying",
+    "unmount",
+    "unshift",
+    "user",
+    "uuid",
+    "vim",
+    "visible",
+    "vuex",
+    "webapp",
+    "weixin",
+    "wids",
+    "wisedu",
+    "workbench"
+  ],
+  "eslint.packageManager": "yarn",
+  "git.enableSmartCommit": true,
+  "prettier.tabWidth": 2,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": true
+  },
+  // "vetur.validation.template": false,
+  "window.zoomLevel": 0,
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "code-runner.executorMap": {
+    "python": "python3"
+    // "javascript": "nvm use 9 && node --experimental-modules"
+    // "javascript": "nvm use 9 && node --experimental-modules --loader /Users/lisiur/libs/mjs-loader.mjs"
+  },
+  "python.pythonPath": "/usr/local/bin/python3",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.minimap.enabled": false,
+  "code-runner.runInTerminal": true,
+  "gitlens.keymap": "chorded",
+  "editor.fontSize": 13,
+  "vim.disableExtension": false,
+  "editor.tabSize": 2,
+  "git.autofetch": true,
+  "editor.wordWrap": "off",
+  "debug.toolBarLocation": "docked",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "terminal.integrated.rendererType": "dom",
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#47CA9C",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "HACK:",
+      "color": "#000",
+      "isWholeLine": false
+    },
+    {
+      "text": "TODO:",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,.2)"
+      //other styling properties goes here ...
+    }
+  ],
+  "todohighlight.defaultStyle": {
+    "color": "#47CA9C",
+    "backgroundColor": "rgba(0,0,0,0)",
+    "overviewRulerColor": "grey"
+  },
+  "todohighlight.keywordsPattern": "TODO:.+\\.?",
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascriptreact",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)"
+  ],
+  "vetur.format.defaultFormatter.html": "none",
+  "workbench.statusBar.feedback.visible": false,
+  "breadcrumbs.enabled": true,
+  "vsicons.presets.hideExplorerArrows": true,
+  "gitProjectManager.baseProjectsFolders": [
+    "/Users/lisiur/Projects/playground/npm-store",
+    "/Users/lisiur/Projects/wisedu"
+  ],
+  "cSpell.language": "en",
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "go",
+    "handlebars",
+    "html",
+    "jade",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pub",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "yml"
+  ],
+  "editor.renderIndentGuides": false,
+  "vetur.validation.template": false,
+  "editor.tabCompletion": "on",
+  "explorer.sortOrder": "type",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    // "editor.formatOnSave": true
+  },
+  "[rust]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  // "editor.lineNumbers": "relative",
+  "editor.renderLineHighlight": "all",
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "workbench.fontAliasing": "auto",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "workbench.sideBar.location": "left",
+  "projectManager.treeview.visible": false,
+  "gitlens.views.repositories.files.layout": "auto",
+  // "gitlens.views.fileHistory.enabled": false,
+  // "gitlens.views.lineHistory.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "color-highlight.markRuler": false,
+  "cSpell.diagnosticLevel": "Warning",
+  "php.suggest.basic": false,
+  "php.validate.enable": false,
+  "window.openFilesInNewWindow": "default",
+  "files.defaultLanguage": "markdown",
+  "files.trimTrailingWhitespace": true,
+  // "javascript.implicitProjectConfig.checkJs": true,
+  "prettier.trailingComma": "es5",
+  "projectManager.any.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    "dist"
+  ],
+  // "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true
+}
